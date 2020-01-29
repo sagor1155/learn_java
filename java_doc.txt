@@ -1,0 +1,8 @@
+
+interview preparation:
+1. solid principal
+2. multithreading
+3. REST API
+4. synchronous/asynchronous 
+5. spring framework/spring boot 
+6. SQL database 
