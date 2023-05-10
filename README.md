@@ -1,4 +1,4 @@
-# JAVA
+# JAVA Programming
 
 ## Basic syntax: 
 - Case sensitivity: java is case sensitive 
@@ -8,23 +8,23 @@
 - Java program processing starts from the `main()` method which is a mandatory part of every Java program. 
     `public static void main(String args[]){}` 
 
-## Java Identifiers:
+## Identifiers:
 - All Java components require names. Names used for classes, variables, and methods are called identifiers.
 - In Java, there are several points to remember about identifiers. They are as follows −
     - All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
     - After the first character, identifiers can have any combination of characters.
     - A key word cannot be used as an identifier.
-    - Most importantly, identifiers are case sensitive.
+    - Most importantly, identifiers are case-sensitive.
     - Examples of legal identifiers: `age`, `$salary`, `_value`, `__1_value`.
     - Examples of illegal identifiers: `123abc`, `-salary`.
 
-## Java Modifiers:
+## Modifiers:
 Like other languages, it is possible to modify classes, methods, etc., by using modifiers.
 There are two categories of modifiers −
 - Access Modifiers − `default`, `public`, `protected`, `private`
 - Non-access Modifiers − `final`, `abstract`
 
-## Java Variables:
+## Variables:
 Following are the types of variables in Java:
 - Local Variables
 - Class Variables (Static Variables)
@@ -41,3 +41,29 @@ Following are the types of variables in Java:
 - If there are no package  statements, then the import statement should be the first line in the source file.
 - Import and package statements will imply to all the classes present in the source file. 
     It is not possible to declare different import and/or package statements to different classes in the source file.
+
+
+## OOP 
+
+
+## Java 8 to 17 all feature changes
+#### Ref 
+- https://www.happycoders.eu/java/java-10-features/
+- https://reflectoring.io/java-release-notes/
+- https://www.baeldung.com/java-migrate-8-to-17
+
+
+## Java 8 Features:
+- Interface default and static method
+- ForEach
+- Lambda expression
+- Streams API (https://www.baeldung.com/java-8-streams)
+-
+
+## Java 17 Features:
+- Sealed classes (https://www.youtube.com/watch?v=glvYULuaf-k&t=1s)
+- Record class (https://www.youtube.com/watch?v=pmVgs8wOk5o)
+- Switch statement and expression (https://www.youtube.com/watch?v=AZb1wLIQ1R4)
+
+#### Ref
+- https://www.baeldung.com/java-17-new-features
