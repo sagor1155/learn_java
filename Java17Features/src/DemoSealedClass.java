@@ -23,3 +23,13 @@ class C {
 final class D extends A{
 
 }
+
+// For interface, it can be sealed but the derived interface must be sealed or non-sealed but not final as interface can never be final
+sealed interface X permits Y {
+
+}
+
+// can't be final
+non-sealed interface Y extends X {
+
+}
