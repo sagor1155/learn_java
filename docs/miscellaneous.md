@@ -1,5 +1,6 @@
 ## Miscellaneous Topics
 - Static import
+- Final (variable, method, class)
 
 ### Static import
 With the help of static import, we can access the static members of a class directly without class name or any object.
@@ -15,3 +16,8 @@ public class Main {
     }
 }
 ```
+
+### Final (variable, method, class)
+- **Final variable:** meant not to be assigned after its first initialization
+- **Final method:** meant not to be overriden by derived class
+- **Final class:** meant not to be extended (inherited) by other classes

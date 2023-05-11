@@ -4,5 +4,9 @@ public class Main {
 
         // switch-case
         DemoSwitchCase.runDemo();
+
+        // record class
+        DemoRecordClass.runDemo();
+
     }
 }

@@ -51,3 +51,4 @@
 
 ## [Miscellaneous Topics](docs/miscellaneous.md)
 - Static import
+- Final (variable, method, class)
