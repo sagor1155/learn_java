@@ -1,6 +1,12 @@
 # JAVA Programming
 
 ## [Basic syntax and rules](docs/syntax.md)
+- Basic syntax
+- Identifiers
+- Modifiers
+- Variables
+- Source File Declaration Rules
+
 
 ## [OOP]()
 - Encapsulation
