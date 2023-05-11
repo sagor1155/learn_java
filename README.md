@@ -51,4 +51,8 @@
 
 ## [Miscellaneous Topics](docs/miscellaneous.md)
 - Static import
+- Static (variable, method, block)
 - Final (variable, method, class)
+- Serialization
+- POJO
+- Bean
