@@ -78,22 +78,22 @@ public class EmployeePojo {
 
 - Reflection with POJO
 
-let's inspect the properties of our POJO:
-
-```java
-List<String> propertyNames =
-  PropertyUtils.getPropertyDescriptors(EmployeePojo.class).stream()
-    .map(PropertyDescriptor::getDisplayName)
-    .collect(Collectors.toList());
-```
-
-If we were to print out propertyNames to the console, we'd only see:
-
-```java
-[start]
-```
-
-Here, we see that we only get start as a property of the class. PropertyUtils failed to find the other two.
+  let's inspect the properties of our POJO:
+  
+  ```java
+  List<String> propertyNames =
+    PropertyUtils.getPropertyDescriptors(EmployeePojo.class).stream()
+      .map(PropertyDescriptor::getDisplayName)
+      .collect(Collectors.toList());
+  ```
+  
+  If we were to print out propertyNames to the console, we'd only see:
+  
+  ```java
+  [start]
+  ```
+  
+  Here, we see that we only get `start` as a property of the class. PropertyUtils failed to find the other two.
 
 #### Bean:
 A Java Bean is still a POJO but introduces a strict set of rules around how we implement it:
@@ -105,8 +105,7 @@ A Java Bean is still a POJO but introduces a strict set of rules around how we i
 
 ```java
 public class EmployeeBean implements Serializable {
-
-    private static final long serialVersionUID = -3760445487636086034L;
+    
     private String firstName;
     private String lastName;
     private LocalDate startDate;
@@ -145,7 +144,7 @@ public class EmployeeBean implements Serializable {
   - Boilerplate – we must introduce getters for all properties and setters for most, much of this might be unnecessary 
   - Zero-argument Constructor – we often need arguments in our constructors to ensure the object gets instantiated in a valid state, but the Java Bean standard requires us to provide a zero-argument constructor
 
-For more details check the references. 
+For more details please read the references. 
 
 #### Ref:
 - https://www.baeldung.com/java-pojo-class
@@ -168,7 +167,7 @@ Let's create a simple `Person` class with only `name` and `age` fields and no me
 ```java
 class Person {
     private String name;
-  private int age;
+    private int age;
 }
 ```
 
