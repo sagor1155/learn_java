@@ -54,5 +54,6 @@
 - Static (variable, method, block)
 - Final (variable, method, class)
 - Serialization
-- POJO
-- Bean
+- POJO and Bean
+- Reflection
+- Comparable
